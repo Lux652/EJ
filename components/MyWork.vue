@@ -84,6 +84,7 @@
   color: #4e4e4e;
   margin-top: 2em;
   font-size: 21px;
+  font-family: public_sansregular;
 }
 .grah {
   left: 7em;

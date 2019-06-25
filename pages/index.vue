@@ -9,7 +9,9 @@
             Hi! I'm a digital designer specialized in
             <span class="spanEJ">Brand identity & UI design</span> based in Croatia.
           </h1>
-          <b-button class="btnEJ" size="lg" squared variant="outline-secondary">CONTACT ME</b-button>
+          <b-button class="btnEJ" size="lg" squared variant="outline-secondary">
+            <nuxt-link to="contact">CONTACT ME</nuxt-link>
+          </b-button>
         </b-col>
       </b-row>
     </b-container>
@@ -45,6 +47,7 @@ export default {
 .h1EJ {
   font-size: 75px;
   color: #4e4e4e;
+  font-family: gilroyextrabold;
 }
 .spanEJ {
   color: #0322dc;
@@ -54,5 +57,16 @@ export default {
   color: #4e4e4e;
   border-color: #0322dc !important;
   margin-top: 2em;
+}
+a {
+  color: #4e4e4e !important;
+  font-family: public_sanslight;
+}
+a:hover {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+button:hover {
+  background-color: red;
 }
 </style>

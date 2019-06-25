@@ -35,10 +35,12 @@
 .mailEJ {
   font-size: 48px;
   color: #4e4e4e;
+  font-family: public_sansregular;
 }
 .h4EJ {
   font-size: 21px;
   color: #4e4e4e;
+  font-family: public_sansregular;
 }
 .juro {
   left: -177px;
